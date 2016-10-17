@@ -214,8 +214,10 @@ document.getElementById("applePay").onclick = function(evt) {
 			
 			logit("this is where you would pass the payment token to your third-party payment provider to use the token to charge the card. Only if your provider tells you the payment was successful should you return a resolve(true) here. Otherwise reject;");
 			logit("defaulting to resolve(true) here, just to show what a successfully completed transaction flow looks like");
-			if ( debug == true )
-			resolve(true);
+			if ( debug == true ){
+				resolve(true);
+				window.paymentTokenResults = paymentToken;
+			}
 			else
 			reject;
 		});
