@@ -1,5 +1,5 @@
 <?php
-require_once ('/apple_pay_conf.php');
+require_once ('/app/apple_pay_conf.php');
 ?>
 <!DOCTYPE html>
 <html lang="en-GB">
