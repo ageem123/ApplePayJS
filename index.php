@@ -25,6 +25,7 @@ require_once ('/app/apple_pay_conf.php');
 </style>
 </head>
 <body>
+	<div>initial text</div>
 <div>
 <button type="button" id="applePay"></button>
 <p style="display:none" id="got_notactive">ApplePay is possible on this browser, but not currently activated.</p>
